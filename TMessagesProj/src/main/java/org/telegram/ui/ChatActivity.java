@@ -1894,7 +1894,7 @@ public class ChatActivity extends BaseFragment implements
         }
 
         @Override
-        public void onDoubleTap(View view, int position, float x, float y) {
+        public void onDoubleTap(View view, int position, float x, float y) { /* disable doubletap reaction */ /*
             if (getParentActivity() == null || isSecretChat() || isInScheduleMode() || isInPreviewMode() || chatMode == MODE_QUICK_REPLIES) {
                 return;
             }
@@ -1941,7 +1941,7 @@ public class ChatActivity extends BaseFragment implements
                 }
                 selectReaction(view, messageObject, null, null, x, y, ReactionsLayoutInBubble.VisibleReaction.fromEmojicon(reaction), true, false, false, false);
             }
-        }
+        */}
     };
 
     private class ChatActivityEnterViewDelegate implements ChatActivityEnterView.ChatActivityEnterViewDelegate {
